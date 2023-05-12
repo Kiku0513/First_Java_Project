@@ -14,7 +14,7 @@ public class Variable_Datatypes
 		System.out.println("Travel allowance are"+ travel_allowance);
 		System.out.println("My Kid Section is" +section);
 		System.out.println("Todays Temperature is " +temperature);
-		System.out.println("Heat to bake the cake" +heat);
+		System.out.println("Heat to bake the cake" + heat);
 		System.out.println("Choclate price is" +choclatePrice);
 		System.out.println("Below sentece is true or false "+b);
 		System.out.println("Price of my car is"+carPrice);
