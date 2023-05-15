@@ -8,7 +8,7 @@ public class Logical_Operator {
 		int b=25;
 		int c=15;
 		boolean val=true;
-		System.out.println(" Not Operator fot val " + !val);
+		System.out.println(" Not Operator for val " + !val);
 		
 		if((a>b)&&(b>c))
 		{
