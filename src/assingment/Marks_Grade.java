@@ -6,9 +6,9 @@ public class Marks_Grade
 	
 	//OWN SOLVE PROGRAM
 	/*
-	 * checkPassOrFail (student name, staudent mark)
+	 * checkPassOrFail (student name, student mark)
 	 * {
-	 *  if(studentmark >= 40)
+	 *  if(student mark >= 40)
 	 *  {
 	 * 		pass
 	 * }
@@ -42,7 +42,7 @@ public class Marks_Grade
 	 *  }
 	 *  else
 	 *  {
-	 *  syso("Stuent has failed and hence grade is not given")
+	 *  ("Student has failed and hence grade is not given")
 	 *  }
 	 *
 	 */
@@ -97,7 +97,7 @@ public class Marks_Grade
 	public static void main(String[] args) 
 	{
 		Marks_Grade obj1=new Marks_Grade();
-		int result=obj1.checkPassorFail("Komal",45);
+		int result=obj1.checkPassorFail("Komal",35);
 		obj1.grade(result);
 
 
