@@ -10,7 +10,7 @@ public class Do_While_Loop {
 			System.out.println(i);
 			i++;
 		}
-      while(i<=10);
+		while(i<=10);
 	}
 
 }

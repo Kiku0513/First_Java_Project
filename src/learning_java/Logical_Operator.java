@@ -9,7 +9,7 @@ public class Logical_Operator {
 		int c=15;
 		boolean val=true;
 		System.out.println(" Not Operator for val " + !val);
-		
+
 		if((a>b)&&(b>c))
 		{
 			System.out.println("if block executed");
@@ -19,7 +19,7 @@ public class Logical_Operator {
 			System.out.println(" Else if block Executed");
 		}
 		else
-			
+
 		{
 			System.out.println("Only Else bolck will Executed");
 		}

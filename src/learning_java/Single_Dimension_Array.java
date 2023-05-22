@@ -26,14 +26,14 @@ public class Single_Dimension_Array
 		{
 			System.out.println("Marks Series --->"+marks[i]);
 		}
-		/*for(int i=0;i<marks1.length;i++)
+		for(int i=0;i<marks1.length;i++)
 		{
 			System.out.println("Marks1 Series--->"+marks1[i]);
 		}
 		for(int i=0;i<marks2.length;i++)
 		{
 			System.out.println("Marks2 Series--->"+marks2[i]);
-		}*/
+		}
 	}
 
 }

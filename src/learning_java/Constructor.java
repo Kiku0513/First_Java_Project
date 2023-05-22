@@ -4,7 +4,7 @@ public class Constructor
 {
 	int id;
 	String name;
-	
+
 	Constructor(int i,String n)
 	{
 		id=i;
@@ -18,7 +18,7 @@ public class Constructor
 	{
 		Constructor  s1=new Constructor(1,"Komal");
 		s1.StudentData();
-		
+
 		Constructor s2=new Constructor(2,"Ashish");
 		s2.StudentData();
 	}

@@ -4,7 +4,7 @@ public class Arihtmatic_Operation_Cons
 {  
 	int a;
 	int b;
-	
+
 	Arihtmatic_Operation_Cons(int c,int d)
 	{
 		a=c;
@@ -36,18 +36,18 @@ public class Arihtmatic_Operation_Cons
 		int mod=(a%b);
 		System.out.println("Modulo of two no is "+ mod);
 	}
-	
+
 	public static void main(String[] args) 
 	{
-		 Arihtmatic_Operation_Cons obj1=new Arihtmatic_Operation_Cons(10,5);
-		 int plus=obj1.addition();
-		 System.out.println("Addition of two no is "+ plus);
-		 
-  obj1.substraction();
-  obj1.multiplication();
-  obj1.division();
-  obj1.moduelo();
-		 
+		Arihtmatic_Operation_Cons obj1=new Arihtmatic_Operation_Cons(10,5);
+		int plus=obj1.addition();
+		System.out.println("Addition of two no is "+ plus);
+
+		obj1.substraction();
+		obj1.multiplication();
+		obj1.division();
+		obj1.moduelo();
+
 	}
 
 }

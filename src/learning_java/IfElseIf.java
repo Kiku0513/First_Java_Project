@@ -3,7 +3,7 @@ package learning_java;
 public class IfElseIf {
 
 	public static void main(String[] args)
-    {
+	{
 		int a=20;
 		int b=30;
 		if (a>b)

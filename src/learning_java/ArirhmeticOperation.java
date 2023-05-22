@@ -11,7 +11,7 @@ public class ArirhmeticOperation {
 		int e=a*b;
 		int f=a/b;
 		int g=a%b;
-	
+
 		System.out.println("Addition of two no is " + c);
 
 		System.out.println("Substraction of two no is " + d);
@@ -22,9 +22,9 @@ public class ArirhmeticOperation {
 
 		System.out.println("Modulo of two no is " + g);
 
-		
-				
-	
+
+
+
 
 	}
 

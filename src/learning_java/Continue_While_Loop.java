@@ -11,17 +11,17 @@ public class Continue_While_Loop {
 			i++;
 			if(i==5)
 			{
-			
-			continue;
+
+				continue;
 
 			}
 			System.out.println(i);
-			
-			
-			
-			
+
+
+
+
 		}
-	
+
 	}
 
 }

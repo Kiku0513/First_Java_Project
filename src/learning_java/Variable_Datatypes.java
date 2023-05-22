@@ -18,8 +18,8 @@ public class Variable_Datatypes
 		System.out.println("Choclate price is" +choclatePrice);
 		System.out.println("Below sentece is true or false "+b);
 		System.out.println("Price of my car is"+carPrice);
-		
-		
-		
+
+
+
 	}
 }
