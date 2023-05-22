@@ -29,13 +29,13 @@ public class Methods_Ex {
 
 	public static void main(String args[])
 	{ 
-		//classname object = new classname();
+		//class name object = new class name();
 		Methods_Ex obj1= new Methods_Ex();
 		System.out.println(obj1.num);
 		obj1.addTwoNumbers(10, 8);
 
 		Methods_Ex obj2 = new Methods_Ex();
-		//System.out.println(obj2.num);
+		//System.out.println(obj2.numb);
 		obj2.addTwoNumbers(12, 12);
 
 
