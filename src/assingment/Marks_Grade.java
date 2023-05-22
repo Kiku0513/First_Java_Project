@@ -3,7 +3,7 @@ package assingment;
 public class Marks_Grade 
 {
 
-//students data
+
 	//OWN SOLVE PROGRAM
 	/*
 	 * checkPassOrFail (student name, student mark)
