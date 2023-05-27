@@ -49,26 +49,6 @@ public class String_Methods
 		String s14=s.toLowerCase();
 		System.out.println(s14);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
-
-
-
-
 	}
 
 }

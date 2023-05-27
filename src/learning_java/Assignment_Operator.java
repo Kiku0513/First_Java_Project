@@ -9,12 +9,12 @@ public class Assignment_Operator {
 		 * num1=num1+10;
 		 */
 
-		System.out.println("for num+= " + (num1+=10));
-		System.out.println("for num-= " + (num1-=10));
-		System.out.println("for num*= " + (num1*=10));
-		System.out.println("for num/= " + (num1/=10));
-		System.out.println("for num%= " + (num1%=10));
-		System.out.println("for num== " + (num1==10));
+		System.out.println("for num +  = " + (num1+=10));
+		System.out.println("for num -  = " + (num1-=10));
+		System.out.println("for num *  = " + (num1*=10));
+		System.out.println("for num /  = " + (num1/=10));
+		System.out.println("for num %  = " + (num1%=10));
+		System.out.println("for num == =" + (num1==10));
 		
 	}
 

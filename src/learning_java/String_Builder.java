@@ -4,23 +4,23 @@ public class String_Builder {
 
 	public static void main(String[] args) 
 	{
-		//String Builder is an mutable (values are changeable) version of String class
+		//String Builder is a mutable (values are changeable) version of the String class
 		//the default no . of characters for STring builder is 16
 
-		//first way of creating stringbuilder
+		//first way of creating StringBuilder
 		StringBuilder sb = new StringBuilder();
 		sb.append("Hello");
 		sb.append("world");
 
 		System.out.println("sb-->"+sb);
 
-		//second way of creating stringbuilder
+		//second way of creating StringBuilder
 		StringBuilder sb1 = new StringBuilder("Hello");
 		sb1.append("world");
 
 		System.out.println("Second way of creating stringbuilder-->"+sb1);
 
-		//Third way of creating Stringbuilder
+		//Third way of creating StringBuilder
 		StringBuilder sb2= new StringBuilder(20);
 		sb2.append("java");
 		sb2.append("language");
@@ -30,7 +30,7 @@ public class String_Builder {
 		sb.insert(1, "java");
 		System.out.println("After Inserting in sb-->"+sb);
 
-		//beginindex is inclusive and the endindex is exlusive
+		//begin index is inclusive and the end index is exclusive
 		sb.delete(1,5);
 		System.out.println("After deleting in sb-->"+sb);
 
@@ -65,6 +65,7 @@ public class String_Builder {
 		 * newcapacity= (16*2)+2 = 32 +2 =34
 		 * 
 		 */
+		
 	}
 
 }

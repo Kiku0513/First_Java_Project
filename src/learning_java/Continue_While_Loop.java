@@ -16,10 +16,6 @@ public class Continue_While_Loop {
 
 			}
 			System.out.println(i);
-
-
-
-
 		}
 
 	}
