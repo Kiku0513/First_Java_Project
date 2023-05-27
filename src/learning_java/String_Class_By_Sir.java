@@ -23,7 +23,7 @@ public class String_Class_By_Sir
 
 		String str4= str.replace("a", "e");
 		System.out.println(str4);
-
+ 
 		String str5= str.replace("is", "was");
 		System.out.println(str5);
 
