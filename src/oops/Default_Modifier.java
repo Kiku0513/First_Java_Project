@@ -13,7 +13,7 @@ public class Default_Modifier
 	{
 		Default def=new Default();
 		def.method2();
-		
+
 	}
 
 }

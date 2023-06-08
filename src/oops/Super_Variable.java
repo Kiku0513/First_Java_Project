@@ -1,7 +1,7 @@
 package oops;
 //super can be used to refer immediate parent class instance variable.
 
-//baseclass or super class
+//baseclass or super class //same variable name
 class car
 {
 	String color="black";

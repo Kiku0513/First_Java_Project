@@ -39,6 +39,6 @@ public class OverRiding_Ex
 		s.name();
 		Staff m=new Staff();
 		m.name();
-		
+
 	}
 }

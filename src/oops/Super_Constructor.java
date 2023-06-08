@@ -3,7 +3,7 @@ package oops;
 //super() can be used to invoke immediate parent class constructor.
 //If we dont call the parent class constructor explicitly in the child class, child class constructor would call the parent class constructor implicitly
 
-class Subject
+class Subject //same method name
 {
 	Subject()
 	{
