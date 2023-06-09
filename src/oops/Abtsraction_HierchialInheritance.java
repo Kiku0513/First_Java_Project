@@ -15,7 +15,6 @@ abstract class Emp
 class Empage extends Emp
 {
 
-	@Override
 	void details()
 	{
 		System.out.println("Age of the Employe is 48");		
@@ -25,7 +24,6 @@ class Empage extends Emp
 class Empgender extends Emp
 {
 
-	@Override
 	void details()
 	{
 		System.out.println("The gender of Emp is MALE");		
@@ -64,7 +62,6 @@ abstract class Shape
 
 class Rectangle extends Shape
 {
-
 	@Override
 	void draw() {
 		System.out.println("Drawing an rectangle");		
