@@ -2,21 +2,21 @@ package oops;
 //super can be used to refer immediate parent class instance variable.
 
 //baseclass or super class //same variable name
-class car
+class car2
 {
-	String color="black";
-	void display_color() 
+	String color1="black";
+	void display_color1() 
 	{
-		System.out.println("Car color is "+ color);
+		System.out.println("Car color is "+ color1);
 	}
 }
-class Brand extends car //subclass
+class Brand extends car2 //subclass
 {
-	String color="red";
+	String color1="red";
 	void mahindra() 
 	{
-		System.out.println("Car color of mahindra  is "+ color);
-		System.out.println("brand color is "+super.color);
+		System.out.println("Car color of mahindra  is "+ color1);
+		System.out.println("brand color is "+super.color1);
 	}
 }
 public class Super_Variable {

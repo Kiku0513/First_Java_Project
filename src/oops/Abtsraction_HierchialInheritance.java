@@ -17,10 +17,14 @@ class Empage extends Emp
 
 	void details()
 	{
-		System.out.println("Age of the Employe is 48");		
+		System.out.println("Age of the Employe is 48");
+		name="Komal";
+		System.out.println("name is "+name);
+		System.out.println(color);
 	}
 
 }
+
 class Empgender extends Emp
 {
 

@@ -4,7 +4,7 @@ package oops;
  * Java Final keyword is used to restrict the user and it can be used along with Variables, methods and classes
  */
 
-//When i have declared a variable as final, i cannot change its value
+//When i have declared a variable as final, i cannot change its value with same varibale name
 public class Final_Variable
 {
 	final int roll_no=20;
