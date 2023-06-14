@@ -1,0 +1,5 @@
+Walk Through: - Study a document from first to last completeness & correctness.
+Inspection: - Search a document for required topics to know completeness & correctness.
+Peer Review: - Compare 2 similar documents for completeness & correctness.
+➢ These 3 review techniques are also called as verification techniques (or) Static 
+testing tech
