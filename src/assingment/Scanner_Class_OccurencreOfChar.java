@@ -6,11 +6,12 @@ public class Scanner_Class_OccurencreOfChar {
 
 	public static void main(String[] args)
 	{
-		Scanner s=new Scanner(System.in);
-
 		System.out.println("Enter String");
-
-		String name=s.nextLine();
+		Scanner s=new Scanner(System.in);
+//nextLine() is used to accept String input
+		
+		//nextInt() is used to accept integer input
+		String name=s.nextLine(); 
 		int count=0;
 		char c='a';	
 
