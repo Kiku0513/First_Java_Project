@@ -4,31 +4,96 @@ public class Print_Int_Spaces {
 
 	public static void main(String[] args)
 	{
-		Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number of rows: ");
-        int size=sc.nextInt();
-        int space=sc.nextInt();
-        int star=sc.nextInt();
-    
-      //  int size = 5;
-       // int space=3;
-       // int star=1;
-        for(int i=1; i<=size; i++) // Outer for loop for the no of Rows
+		/*Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+        StringBuilder sb=new StringBuilder(str);
+      StringBuilder sb1=  sb.insert(1, ",");
+      StringBuilder sb2=   sb1.insert(3,",");
+      StringBuilder sb3=  sb2.insert(5, ",");
+      System.out.println(sb3);*/
+		
+		 
+		Scanner input = new Scanner(System.in);
+
+        int number_Of_DaysInMonth = 0; 
+        String MonthOfName = "Unknown";
+
+       // System.out.print("Input a month number: ");
+        int month = input.nextInt();
+
+       // System.out.print("Input a year: ");
+        int year = input.nextInt();
+
+        switch (month)
         {
-        for(int j=1; j<=space; j++) // Inner For Loop for Space
-        {
-        System.out.print(" ");
-        }
-        for(int j=1; j<=star; j++) // Inner For Loop for star
-        {
-        System.out.print(" * ");
-        }
-        System.out.println();
-        space--;
-        star++;
-        }
-	}
-}
+        case 1:
+            MonthOfName = "January";
+            number_Of_DaysInMonth = 31;
+            break;
+        case 2:
+            MonthOfName = "February";
+            
+                number_Of_DaysInMonth = 28;
+            
+            break;
+        case 3:
+            MonthOfName = "March";
+            number_Of_DaysInMonth = 31;
+            break;
+        case 4:
+            MonthOfName = "April";
+            number_Of_DaysInMonth = 30;
+            break;
+        case 5:
+            MonthOfName = "May";
+            number_Of_DaysInMonth = 31;
+            break;
+        case 6:
+            MonthOfName = "June";
+            number_Of_DaysInMonth = 30;
+            break;
+        case 7:
+        	 MonthOfName = "July";
+             number_Of_DaysInMonth = 31;
+             break;
+         case 8:
+             MonthOfName = "August";
+             number_Of_DaysInMonth = 31;
+             break;
+         case 9:
+             MonthOfName = "September";
+             number_Of_DaysInMonth = 30;
+             break;
+         case 10:
+             MonthOfName = "October";
+             number_Of_DaysInMonth = 31;
+             break;
+         case 11:
+             MonthOfName = "November";
+             number_Of_DaysInMonth = 30;
+             break;
+         case 12:
+             MonthOfName = "December";
+             number_Of_DaysInMonth = 31;
+             
+             default:
+            	 
+            	 
+     }
+       
+     System.out.print("error");
+		}
+
+
+
+	        
+	      }
+	     
+
+	
+
+	
+
 
 
 
