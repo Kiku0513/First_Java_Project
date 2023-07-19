@@ -52,7 +52,7 @@ public class ArrayListProgram {
 
 		//5. Write a Java program to update an array element by the given element.	
 
-		al.set(1, "Wine");
+		al.set(1, "purple");
 		System.out.println("After Update---->"+al);
 
 

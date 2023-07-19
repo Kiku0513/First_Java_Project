@@ -16,7 +16,7 @@ class Birds
 //child class or derived class
 class Animals extends Birds
 {
-	String aniname="lion";
+	String aniname="chiutai";
 	void bird_name()
 	{
 		System.out.println("Name of the bird is "+aniname);
@@ -24,7 +24,7 @@ class Animals extends Birds
 	}
 	void zoo()
 	{   
-		bird_name();
+		
 	
 		super.bird_name();
 	}
@@ -35,6 +35,7 @@ public class Super_Method {
 	public static void main(String[] args)
 	{
 		Animals an=new Animals();
+		an.bird_name();
 		an.zoo();
 			
 
