@@ -3,8 +3,7 @@ import java.util.*;
 public class Practice {
 
 
-	public static void main(String []args)
-	{
+	
 		
 	 
 		/*  Scanner sc=new Scanner(System.in);
@@ -25,32 +24,56 @@ public class Practice {
 
 
 
-		{
-	        Scanner cs=new Scanner(System.in);
-	  String str1;
-	  str1=cs.nextLine();
-	  char[] str=str1.toCharArray();
-	     for(int i=0;i<str1.length();i++)
-	     {
-	     if(str[i]=='a' || str[i]=='A' || str[i]=='e'|| str[i]=='E' || str[i]=='i'|| 
-	       str[i]=='I' || str[i]=='o' || str[i]=='O' || str[i]=='u' || str[i]=='U'|| str[i]==' ')
-	     {
-	      continue;
-	       }
-	          else
-	           System.out.print(str[i]+" ");
-	          }     
-	    }
+	public static void main(String args[])
+	{
+	  Scanner sc = new Scanner(System.in);
+		
+      int i,j,row,col,sum=0;
+	row = sc.nextInt();
+	col = sc.nextInt();
+
+	int[][] mat = new int[row][col];
+
+		for(i=0;i<row;i++)
+		{ 
+  		for(j=0;j<col;j++)
+  		{ 
+      		mat[i][j] = sc.nextInt();
+			}
+	}
+	
+		for(i=0;i<row;i++)
+		{ 
+  		for(j=0;j<col;j++)
+  		{ 
+     	 		System.out.print(mat[i][j]+"\t");
+			}
+	 		System.out.println("");
 	}
 
+		for(i=0;i<row;i++)
+		{ 
+  		for(j=0;j<col;j++)
+  		{ 
+			if(i==j)	
+			{
+				sum = sum + mat[i][j];
+			}
+			}
+	}
 
+System.out.println(sum) ;
+}	
+				    
+	    }
+	
 
 
 
 
    
   
-}
+
 
 
 

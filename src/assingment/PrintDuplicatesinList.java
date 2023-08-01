@@ -21,7 +21,7 @@ public class PrintDuplicatesinList {
 			l.add(70);
 			System.out.println("Full List----->"+l);
 			
-			LinkedHashSet ll=new LinkedHashSet();
+			LinkedHashSet<Integer> ll=new LinkedHashSet<Integer>();
 			
 			for(int i:l)
 			{
@@ -29,8 +29,9 @@ public class PrintDuplicatesinList {
 				{
 					System.out.println("Only Duplicates-------->"+i);
 				}
-			}
+			
 			
 	}
 
+}
 }

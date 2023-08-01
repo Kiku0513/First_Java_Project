@@ -28,7 +28,7 @@ public class TreeSetAss {
 		ts.add("Blue");
 		ts.add("White");
 		ts.add("Orange");
-		
+				
 		//Write a Java program to create a tree set, add some colors (strings) and print out the tree set.
 		System.out.println("TreeSet------>"+ts);
 		
@@ -53,7 +53,7 @@ public class TreeSetAss {
 	Iterator it=ts.descendingIterator();
 	while(it.hasNext())
 	{
-		System.out.println(it.next());
+		System.out.println("Desc"+it.next());
 	}
 
 	System.out.println("------------------");

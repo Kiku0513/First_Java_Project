@@ -35,7 +35,7 @@ class HDFC implements RBI
 }
 
 
-public class InterfaceEx 
+public class InterfaceExHierchacial
 {
 
 	public static void main(String[] args) 

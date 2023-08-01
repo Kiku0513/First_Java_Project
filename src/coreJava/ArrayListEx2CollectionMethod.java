@@ -1,6 +1,6 @@
 package coreJava;
 import java.util.*;
-public class ArrayListEx2 {
+public class ArrayListEx2CollectionMethod {
 
 	public static void main(String[] args) 
 	{

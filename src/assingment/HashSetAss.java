@@ -9,6 +9,7 @@ public class HashSetAss {
      hs.add("Green");
      hs.add("Purple");
      hs.add(null);
+  
      
      System.out.println(hs);
      
